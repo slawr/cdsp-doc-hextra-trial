@@ -8,5 +8,5 @@ weight: 10
 
 Learn the basics and benefits of using the playground
 
-{{< cards >}} {{< card link="cdsp-overview.md" title="Overview" icon="document-text" subtitle="Learn the basics and benefits of using the playground" >}} {{< /cards >}}
+{{< cards >}} {{< card link="cdsp-overview" title="Overview" icon="document-text" subtitle="Learn the basics and benefits of using the playground" >}} {{< /cards >}}
 
