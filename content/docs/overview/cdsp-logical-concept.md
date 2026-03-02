@@ -1,5 +1,5 @@
 ---
-title: "Playground logical concept"
+title: "Logical concept"
 weight: 20
 ---
 
@@ -49,7 +49,8 @@ The following sections address the Why, What and How in more detail.
 
 + VSS is a mechanism of abstraction. The COVESA logical architecture for the VSS eco-system shown below places operation in the 'big ECUs', in zonal ECUs and above. Discussion of next-gen and data-centric architectures suggests investigation into data services in zone, domain and HPC controller scenarios and the cooperation between them. Hence _Central_.
 
-{{< figure src="Logical-Architecture-Overview.drawio.svg" title="The COVESA Logical Architecture" width=50pc >}}
+{{< figure src="/images/Logical-Architecture-Overview.drawio.svg" title="The COVESA Logical Architecture">}}
+
 
 + A repeating pattern of discussion in the COVESA Data Architecture team is the combination of VSS Data Server and VSS Data Store with advanced features and their connection southbound to feeders/native data and northbound to clients and off-board. Hence _Data Service_.
 
@@ -67,7 +68,7 @@ The following sections address the Why, What and How in more detail.
 
 ### Requirements
 
-{{< figure src="cdsp-logical-concept.drawio.svg" title="The data service core requirements" >}}
+{{< figure src="/images/cdsp-logical-concept.drawio.svg" title="The data service core requirements" >}}
 
 At its core the service has requirements in three key areas:
 
@@ -119,7 +120,7 @@ Source: [vss-otaku](https://github.com/slawr/vss-otaku)
 
 **Logical domains**: Connections may also be made to other logical data domains. For example, there is an [knowledge layer proposal](https://wiki.covesa.global/x/cYI8B) made in the COVESA Data Architecture team that discusses the separation of concerns and interaction between knowledge, information and raw data layers as illustrated below. The Playground here could be used to provide the data/information layer services in its investigation.
 
-![Knowledge layer proposal](https://wiki.covesa.global/download/attachments/71074417/Knowledge-Layer-v3.png?api=v2?width=50pc "Deployment illustration from the proposal")
+![Knowledge layer proposal](https://covesa.atlassian.net/wiki/download/attachments/39065679/Knowledge-Layer-v3.png?api=v2?width=50pc "Deployment illustration from the proposal")
   Source: [knowledge layer proposal](https://wiki.covesa.global/x/cYI8B)
 
 ### Project success factors

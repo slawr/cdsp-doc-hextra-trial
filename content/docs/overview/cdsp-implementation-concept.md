@@ -1,5 +1,5 @@
 ---
-title: "Playground implementation"
+title: "Implementation concept"
 weight: 30
 ---
 
